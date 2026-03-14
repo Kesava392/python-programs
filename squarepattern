@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 n = int(input("Enter number: "))
 
 for i in range(n):
     for j in range(n):
         print("*", end=" ")
+=======
+n = int(input("Enter number: "))
+
+for i in range(n):
+    for j in range(n):
+        print("*", end=" ")
+>>>>>>> 6bff3f60cc967a09480ce1bafc968610e1e65067
     print()

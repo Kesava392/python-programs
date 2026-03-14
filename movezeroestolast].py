@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 arr=[1,0,3,2,0,6,2,4,0,78,99]
 n=11
 empty_list=[]
@@ -9,4 +10,17 @@ for i in range(n):
         non_empty_list.append(arr[i])
 result=non_empty_list+empty_list
 for nums in result:
+=======
+arr=[1,0,3,2,0,6,2,4,0,78,99]
+n=11
+empty_list=[]
+non_empty_list=[]
+for i in range(n):
+    if arr[i]==0:
+        empty_list.append(arr[i])
+    else:
+        non_empty_list.append(arr[i])
+result=non_empty_list+empty_list
+for nums in result:
+>>>>>>> 6bff3f60cc967a09480ce1bafc968610e1e65067
     print(nums,end=" ")

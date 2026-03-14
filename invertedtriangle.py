@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 n = 5
 for i in range(n):
     for j in range(n - i):
         print("*", end=" ")
+=======
+n = 5
+for i in range(n):
+    for j in range(n - i):
+        print("*", end=" ")
+>>>>>>> 6bff3f60cc967a09480ce1bafc968610e1e65067
     print()

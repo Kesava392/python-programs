@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 num=int(input())
 str_num=str(num)
 power=len(str_num)
@@ -7,4 +8,15 @@ for digit in str_num:
 if total==num:
     print("Amstrong Number")
 else:
+=======
+num=int(input())
+str_num=str(num)
+power=len(str_num)
+total=0
+for digit in str_num:
+    total+=int(digit)**power
+if total==num:
+    print("Amstrong Number")
+else:
+>>>>>>> 6bff3f60cc967a09480ce1bafc968610e1e65067
     print("Not an Amstrong Number")
